@@ -1,43 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .leaderboard-Container {
-    padding: 15px;
+  padding: 15px;
 }
 
 .scoreAdd-Container {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
 }
 
-#scores-Container, #add-Container {
-    padding: 25px;
+#scores-Container,
+#add-Container {
+  padding: 25px;
 }
 
 .scoreHeader {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 
 #form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 15px;
-    padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  padding-top: 10px;
 }
 
 ::placeholder {
-    color: black;
-    opacity: 1;
+  color: black;
+  opacity: 1;
 }
 
 button {
-    padding: 3px 8px;
-    border: 2px solid black;
-    border-radius: 3px;
+  padding: 3px 8px;
+  border: 2px solid black;
+  border-radius: 3px;
 }
