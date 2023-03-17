@@ -23,19 +23,16 @@ feature/html-markup_branch
 **leaderboard** is an application that fetches scores from the Leaderboard API service..
 
 ## 🛠 Built With<a name="built-with"></a>
-- **HTML**
-- **CSS**
-- **Javascript**
-- **Webpack**
+- HTML
+- CSS
+- Javascript
+- Webpack
 
 ### Key Features <a name="key-features"></a>
 
-- Adding items.
-- Removing items.
-- Mark selected item as complete.
-
-- **[Linters]**
-- **[Node]**
+- **Adding items.**
+- **Removing items.**
+- **Mark selected item as complete.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
