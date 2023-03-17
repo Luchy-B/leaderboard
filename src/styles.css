@@ -3,6 +3,21 @@
   padding: 0;
 }
 
+#scores-Content {
+  list-style-type: none;
+  border: 3px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+li:nth-child(even) {
+  background-color: rgb(222, 222, 222);
+}
+
 .leaderboard-Container {
   padding: 15px;
 }
