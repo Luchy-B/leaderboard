@@ -3,22 +3,35 @@
   padding: 0;
 }
 
+body {
+  background-color: rgb(205, 224, 205);
+}
+
+main h1 {
+  color: green;
+}
+
 #scores-Content {
   list-style-type: none;
-  border: 3px solid black;
+  border: 3px solid green;
   padding: 10px;
   margin-top: 10px;
+  overflow-y: auto;
 }
 
 li {
-  margin-top: 10px;
+  padding: 5px;
 }
 
 li:nth-child(even) {
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(70, 170, 70);
+  color: white;
 }
 
 .leaderboard-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 15px;
 }
 
@@ -31,6 +44,7 @@ li:nth-child(even) {
 #scores-Container,
 #add-Container {
   padding: 25px;
+  color: green;
 }
 
 .scoreHeader {
@@ -44,16 +58,28 @@ li:nth-child(even) {
   flex-direction: column;
   align-items: flex-end;
   gap: 15px;
-  padding-top: 10px;
+  margin-top: 12px;
+  padding: 15px;
+  border: 3px solid green;
 }
 
 ::placeholder {
-  color: black;
   opacity: 1;
+  color: green;
+  background-color: rgb(234, 241, 234);
 }
 
 button {
   padding: 3px 8px;
-  border: 2px solid black;
+  border: 2px solid green;
   border-radius: 3px;
+  background-color: rgb(205, 224, 205);
+  color: green;
+  box-shadow: 2px 2px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(222, 231, 222);
+  box-shadow: 2px 2px 15px white;
 }
