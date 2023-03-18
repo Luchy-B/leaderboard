@@ -23,44 +23,16 @@ feature/html-markup_branch
 **leaderboard** is an application that fetches scores from the Leaderboard API service..
 
 ## 🛠 Built With<a name="built-with"></a>
-HTML
-CSS
-Javascript
-Webpack
-
-### Tech Stack <a name="tech-stack"></a>
-
-Fullstack developer: includes both front end and Backend developer.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- HTML
+- CSS
+- Javascript
+- Webpack
 
 ### Key Features <a name="key-features"></a>
 
 - **Adding items.**
 - **Removing items.**
 - **Mark selected item as complete.**
-
-- **[Linters]**
-- **[Node]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,5 +116,3 @@ This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# leaderboard
-develop
